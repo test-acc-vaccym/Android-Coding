@@ -1,5 +1,6 @@
 如果我们需要在framework-res.apk里面添加一个xml文件，并通过com.android.internal.R.xml.car_volume_group来访问
 - **添加car_volume_group.xml**
+
 1. 通过添加到frameworks/base/core/res/res/资源文件夹里面
 
 2. 通过overlay的方式去重载资源文件
@@ -25,6 +26,7 @@
 
 ```
 - **添加attrs.xml 和 symbols.xml**
+
 frameworks/base/core/res/res/values/attrs.xml
 ```
     <!-- Defines the attributes and values used in res/xml/car_volume_group.xml -->
@@ -58,6 +60,7 @@ frameworks/base/core/res/res/values/symbols.xml
   <java-symbol type="xml" name="car_volume_group" />
 ```
 - **代码调用**
+
 从代码里面解析配置的xml文件
 ```
 class CarVolumeGroupsHelper {
