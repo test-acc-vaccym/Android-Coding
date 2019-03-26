@@ -1,7 +1,7 @@
 如果我们需要在framework-res.apk里面添加一个xml文件，并通过com.android.internal.R.xml.car_volume_group来访问
 - **添加car_volume_group.xml**
 
-1. 通过添加到frameworks/base/core/res/res/资源文件夹里面
+1. 通过添加到frameworks/base/core/res/res/xml/资源文件夹里面
 
 2. 通过overlay的方式去重载资源文件
 ```
